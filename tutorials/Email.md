@@ -30,7 +30,7 @@ The **Email Template Doctype** is used to create reusable email templates. These
 **Fields**:
 - **Name**: The name of the template (e.g., "Welcome Email").
 - **Subject**: The subject line of the email.
-- **Message**: The body content of the email, which can include placeholders like `{% user_name %}`.
+- **Message**: The body content of the email
 - **Is Standard**: Option to mark this template as a standard template for reuse.
 
 **Purpose**:
