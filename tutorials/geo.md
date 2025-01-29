@@ -22,7 +22,4 @@ It has following fields
 
 ![image](https://github.com/user-attachments/assets/1bc58646-c24d-4af3-9413-ce005cd4ec91)
 
-### Example:-
 
-You are using Frappe’s Geo Module, which contains information about countries and their associated currencies.
-In your Contact doctype, you want the Currency field to automatically populate when you select a Country.
