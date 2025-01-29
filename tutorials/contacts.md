@@ -2,65 +2,62 @@
 
 
 
-Contact represents a person.
-
-A contact may be associated with a Lead, Customer, Supplier, Shareholder, Sales Partner or a User.
-
-Steps to search contacts module:
-
-- 1 . Click on serach bar and search **Doctype List**
-  
-- 2 .Now search **Contacts module** in module search bar
- 
-- 3. It will shows all the doctypes present in it 
+The Contacts module in Frappe is used to store and manage information about individuals or organizations your business interacts with, such as customers, suppliers, and leads. It helps track details like names, addresses, emails, phone numbers, and communication history, and allows you to link contacts to other business records.
   
 ![image](https://github.com/user-attachments/assets/6e612aa3-a5da-4766-b174-f37d986fd3cb)
 
-- 4.  Click on any doctype in you want to add fields ,Now click on **Settings** option ,this page will appear.
- 
-- ![image](https://github.com/user-attachments/assets/d84bd7f1-75f2-4f9b-9156-8b3f05bec1da)
+Following are the doctypes of contacs module
 
-Now in fields there are labels,type,name,mandatory,options .
+1. **Contact**
+   - **Purpose**: Represents an individual or entity you interact with (e.g., customers, suppliers).
+   - **Fields**:
+     - **Name**: The name of the contact.
+     - **Email**: Email address.
+     - **Linked to Customer/Supplier**: If the contact is related to a Customer or Supplier.
+     - **Address**: Address associated with the contact.
+     - **Salutation**: Prefix (e.g., Mr., Mrs.).
+     - **Gender**: Gender of the contact (optional).
+     - **Communication Preference**: Preferred method of communication (e.g., email, phone).
 
-Here i am showing how to add the fields in doctypes 
+2. **Address**
+   - **Purpose**: Stores physical address information.
+   - **Fields**:
+     - **Address Line 1**: Primary address line.
+     - **Address Line 2**: Additional address information.
+     - **City**: City where the contact is located.
+     - **State**: State or province.
+     - **Country**: Country of the contact.
+     - **Pincode**: Postal code.
+     - **Address Type**: Type of address (e.g., Billing, Shipping).
 
-There is **Add Row** button click in it it will add row and we can enter the data
+3. **Contact Phone**
+   - **Purpose**: Stores phone-related information for contacts.
+   - **Fields**:
+     - **Phone Number**: The phone number associated with the contact.
+     - **Phone Type**: Type of phone (e.g., Mobile, Landline).
+     - **Country Code**: Country-specific code (e.g., +1 for the USA).
+     - **Is Primary**: Whether this phone number is the primary one for the contact.
 
-# 1.Address Doctype
- ![image](https://github.com/user-attachments/assets/bee6285f-18d3-42bb-96da-867ee20c7767)
+4. **Contact Email**
+   - **Purpose**: Stores email-related information for contacts.
+   - **Fields**:
+     - **Email Address**: The email associated with the contact.
+     - **Email Type**: Type of email (e.g., Personal, Work).
+     - **Is Primary**: Whether this email is the primary one for the contact.
 
- 
- # 2.Contact phone Doctype
+5. **Address Template**
+   - **Purpose**: Defines a template for address formatting.
+   - **Fields**:
+     - **Template Name**: Name of the address template.
+     - **Template Type**: Type of template (e.g., Shipping Address, Billing Address).
+     - **Address Structure**: Format or predefined structure for the address.
 
- 
+6. **Gender**
+   - **Purpose**: Stores the gender options for contacts.
+   - **Fields**:
+     - **Gender**: The gender option (e.g., Male, Female, Other).
 
-
-![image](https://github.com/user-attachments/assets/ed043162-7b7d-4138-80eb-81db3b5fc829)
-
-
-
-# 3.Address template Doctype
-
-
-![image](https://github.com/user-attachments/assets/e1d03c7c-e111-4fcd-906b-7164397123fb)
-
-
-# 4.Contact email Doctype
-
-![image](https://github.com/user-attachments/assets/20e8e9b5-0721-4080-8f2f-b72ff10e9278)
-
-
-# 5 Gender doctype
-
-![image](https://github.com/user-attachments/assets/13fcf982-0288-48d4-b4dd-2fbbe8f715a0)
-
-# 6.Salutation doctype
-
-
-![image](https://github.com/user-attachments/assets/aa854b68-e1e4-4c08-a816-48aa87561b51)
-
-
-
-
-
-We can do  
+7. **Salutation**
+   - **Purpose**: Stores prefixes or salutations for contacts.
+   - **Fields**:
+     - **Salutation**: The salutation for a contact (e.g., Mr., Mrs., Dr., Prof.).
