@@ -25,7 +25,7 @@ List of doctypes:
      - Document Type (e.g., Sales Invoice)
      - Template (HTML for design)
      - CSS (for styling)
-     - Jinja syntax to insert dynamic data
+  
 
 ### 3. Network Printer Settings
    - **Purpose**: Configures the settings for network printers that are integrated with the Frappe system. This allows printing directly from Frappe to networked printers.
