@@ -32,12 +32,10 @@ List of doctypes:
    - **Fields**: 
      - Printer Name
      - Printer Type
-     - IP Address
-     - Port
      - Printer Settings (e.g., resolution, paper size)
 
 ### 4. Print Settings
-   - **Purpose**: Stores system-level settings for printing, such as paper size, print orientation, and other global print-related preferences.
+   - **Purpose**: Stores settings for printing, such as paper size, print orientation etc.
    - **Fields**: 
      - Paper Size (A4, Letter)
      - Print Orientation (Portrait, Landscape)
