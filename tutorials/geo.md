@@ -1,5 +1,8 @@
 ## Geo module:-
 
+
+The Geo Module is used to manage location-based information, which can include addresses, coordinates, regions, and maps.
+
 These are doctypes in this modules
 
 ![image](https://github.com/user-attachments/assets/8b6ef762-5a12-4af4-a6cb-81f5f4655c06)
