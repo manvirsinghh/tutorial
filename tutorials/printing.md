@@ -65,4 +65,4 @@ List of doctypes:
      - Heading Text
      - Font Style
      - Alignment
-     - Placement on the page
+     
