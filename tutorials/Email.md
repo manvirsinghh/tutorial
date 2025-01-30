@@ -21,7 +21,7 @@ The **Email Account Doctype** is used to configure email accounts for sending an
 
 **Purpose**:
 - Allows the system to send emails via an SMTP server.
-- Allows receiving emails by connecting to an IMAP or POP server.
+
 
 #### 2. Email Template
 
@@ -35,7 +35,7 @@ The **Email Template Doctype** is used to create reusable email templates. These
 
 **Purpose**:
 - Used to standardize and reuse email formats (e.g., for welcome emails, notifications, etc.).
-- It supports dynamic fields that get populated based on context (such as user names, document details).
+
 
 #### 3. Email Queue
 
@@ -51,8 +51,7 @@ The **Email Queue Doctype** keeps track of emails that are scheduled to be sent.
 - **Reference Document**: The reference to the document or task related to the email.
 
 **Purpose**:
-- Used to queue and track emails that are being sent out by Frappe.
-- Ensures email sending does not block other processes by handling email sending in the background.
+- Used to queue and track emails that are being sent 
 - Keeps an eye on whether an email was sent successfully or failed.
 
 #### 4. Notification
